@@ -1,6 +1,6 @@
 import { AppWrapper } from "@/app/AppWrapper";
-import { ContactSection } from "./components/ContactSection";
 import { Footer } from "@/components/Footer";
+import { ContactSection } from "./components/ContactSection";
 
 type Props = {};
 

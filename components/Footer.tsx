@@ -1,4 +1,4 @@
-import { Fish, Phone, Mail, MapPin } from "lucide-react"
+import { Fish, Mail, MapPin, Phone } from "lucide-react"
 
 export function Footer() {
   return (

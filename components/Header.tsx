@@ -1,15 +1,15 @@
 "use client"
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Menu, ShoppingCart, Sun, Moon } from "lucide-react"
-import { useCart } from "@/providers/CartProvider"
 import { useTheme } from "@/hooks/useTheme"
-import { CartSheet } from "./CartSheet"
+import { useCart } from "@/providers/CartProvider"
+import { Menu, Moon, ShoppingCart, Sun } from "lucide-react"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
+import { useState } from "react"
+import { CartSheet } from "./CartSheet"
 
 interface HeaderProps {
   activeSection: string

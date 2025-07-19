@@ -1,10 +1,10 @@
 "use client"
 
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { ProductCard } from "./ProductCard"
-import { Package, Filter } from "lucide-react"
 import { mockProducts } from "@/lib/mockData"
+import { Filter, Package } from "lucide-react"
+import { useState } from "react"
+import { ProductCard } from "./ProductCard"
 
 export function ProductsSection() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all")

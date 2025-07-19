@@ -1,5 +1,4 @@
 "use client";
-import React from 'react'
 
 import { AppWrapper } from "@/app/AppWrapper";
 import { Footer } from "@/components/Footer";

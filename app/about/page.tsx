@@ -1,8 +1,8 @@
 import { AboutSection } from "@/app/about/components/AboutSection";
 import { AppWrapper } from "@/app/AppWrapper";
+import { Footer } from "@/components/Footer";
 import { CertificationsDisplay } from "./components/CertificationsDisplay";
 import { ExperienceTimeline } from "./components/ExperienceTimeline";
-import { Footer } from "@/components/Footer";
 
 type Props = {};
 

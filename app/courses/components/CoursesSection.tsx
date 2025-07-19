@@ -1,10 +1,10 @@
 "use client"
 
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { GraduationCap, Filter, Calendar, MapPin, Users, Clock } from "lucide-react"
+import { mockCourses } from "@/lib/mockData"
+import { Calendar, Clock, Filter, GraduationCap, MapPin, Users } from "lucide-react"
+import { useState } from "react"
 import { ProductCard } from "../../products/components/ProductCard"
-import { mockCourses, formatPrice } from "@/lib/mockData"
 
 export function CoursesSection() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all")

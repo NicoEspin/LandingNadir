@@ -1,6 +1,6 @@
-import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { GraduationCap, Award, Users, Briefcase } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card"
+import { Award, Briefcase, GraduationCap } from "lucide-react"
 
 export function ExperienceTimeline() {
   const experiences = [

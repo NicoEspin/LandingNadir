@@ -1,13 +1,13 @@
 "use client"
 
+import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { ShoppingCart, AlertCircle, Star, MapPin, Clock, TrendingUp, Check, Eye } from "lucide-react"
+import { useCart } from "@/hooks/useCart"
+import { AlertCircle, Check, Clock, Eye, MapPin, ShoppingCart, Star, TrendingUp } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
-import { useCart } from "@/hooks/useCart"
 
 // Función helper para formatear precios de manera consistente
 const formatPrice = (price: number): string => {

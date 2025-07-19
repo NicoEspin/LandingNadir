@@ -1,7 +1,6 @@
 "use client";
-import React from 'react'
-import { ProductsSection } from "@/app/products/components/ProductsSection";
 import { AppWrapper } from "@/app/AppWrapper";
+import { ProductsSection } from "@/app/products/components/ProductsSection";
 import { Footer } from "@/components/Footer";
 
 type Props = {};

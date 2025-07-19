@@ -1,32 +1,32 @@
 "use client";
 
-import React, { useState } from 'react';
-import { notFound } from 'next/navigation';
-import Image from 'next/image';
-import Link from 'next/link';
 import { AppWrapper } from "@/app/AppWrapper";
 import { Footer } from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { 
-  ShoppingCart, 
-  Star, 
-  ArrowLeft, 
-  Check, 
-  AlertCircle,
-  MapPin,
-  Clock,
-  Calendar,
-  Users,
-  TrendingUp,
-  BookOpen,
-  Award,
-  Monitor,
-  User
-} from "lucide-react";
 import { useCart } from "@/hooks/useCart";
-import { mockCourses, formatPrice } from "@/lib/mockData";
+import { formatPrice, mockCourses } from "@/lib/mockData";
+import {
+  AlertCircle,
+  ArrowLeft,
+  Award,
+  BookOpen,
+  Calendar,
+  Check,
+  Clock,
+  MapPin,
+  Monitor,
+  ShoppingCart,
+  Star,
+  TrendingUp,
+  User,
+  Users
+} from "lucide-react";
+import Image from 'next/image';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { useState } from 'react';
 
 interface CourseDetailPageProps {
   params: {

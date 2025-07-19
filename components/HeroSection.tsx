@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Fish, Award, MapPin } from "lucide-react"
+import { ArrowRight, Award, Fish, MapPin } from "lucide-react"
 
 interface HeroSectionProps {
   onSectionChange: (section: string) => void

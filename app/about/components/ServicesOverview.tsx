@@ -1,18 +1,12 @@
-import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { 
-  Fish, 
-  GraduationCap, 
-  Map, 
-  Camera, 
-  Users, 
-  Clock, 
-  MapPin, 
-  DollarSign,
-  Compass,
-  Target,
-  BookOpen
+import { Card, CardContent } from "@/components/ui/card"
+import {
+  BookOpen,
+  Fish,
+  GraduationCap,
+  MapPin,
+  Target
 } from "lucide-react"
 
 export function ServicesOverview() {

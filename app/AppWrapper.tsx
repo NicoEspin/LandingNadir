@@ -1,7 +1,7 @@
 "use client"
 
-import { ReactNode } from 'react'
 import { Header } from '@/components/Header'
+import { ReactNode } from 'react'
 
 interface AppWrapperProps {
   children: ReactNode

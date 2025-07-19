@@ -1,6 +1,6 @@
-import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Award, Calendar, MapPin, Phone, Mail, GraduationCap, Target, Users, Heart } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card"
+import { Calendar, GraduationCap, Heart, Mail, MapPin, Phone, Target, Users } from "lucide-react"
 import Image from "next/image"
 
 export function AboutSection() {

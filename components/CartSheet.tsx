@@ -1,11 +1,11 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
-import { Minus, Plus, Trash2, ExternalLink, ShoppingBag, GraduationCap, MapPin, Clock, TrendingUp } from "lucide-react"
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { useCart } from "@/hooks/useCart"
+import { Clock, ExternalLink, GraduationCap, MapPin, Minus, Plus, ShoppingBag, Trash2 } from "lucide-react"
 
 interface CartSheetProps {
   open: boolean

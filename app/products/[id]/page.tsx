@@ -1,28 +1,28 @@
 "use client";
 
-import React, { useState, use } from 'react';
-import { notFound } from 'next/navigation';
-import Image from 'next/image';
-import Link from 'next/link';
 import { AppWrapper } from "@/app/AppWrapper";
 import { Footer } from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { 
-  ShoppingCart, 
-  Star, 
-  ArrowLeft, 
-  Check, 
-  AlertCircle,
-  Truck,
-  Shield,
-  RefreshCw,
-  Heart
-} from "lucide-react";
 import { useCart } from "@/hooks/useCart";
-import { mockProducts, formatPrice, type Product } from "@/lib/mockData";
+import { formatPrice, mockProducts } from "@/lib/mockData";
+import {
+  AlertCircle,
+  ArrowLeft,
+  Check,
+  Heart,
+  RefreshCw,
+  Shield,
+  ShoppingCart,
+  Star,
+  Truck
+} from "lucide-react";
+import Image from 'next/image';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { use, useState } from 'react';
 
 interface ProductDetailPageProps {
   params: Promise<{
