@@ -41,14 +41,7 @@ export function Header({ activeSection }: HeaderProps) {
           {/* Logo */}
           <div className="flex items-center gap-2 sm:gap-3 group cursor-pointer transition-transform hover:scale-105 flex-shrink-0">
             <div className="relative h-8 sm:h-10 lg:h-12 w-auto flex-shrink-0">
-              <Image
-                src="/logo.jpeg"
-                alt="ProFish Logo"
-                width={64}
-                height={40}
-                className="h-full w-auto object-contain rounded-md sm:rounded-lg"
-                priority
-              />
+       {/* logo */}
             </div>
             <div className="hidden sm:block min-w-0">
               <div className="text-sm sm:text-base lg:text-lg font-bold bg-gradient-to-r from-gray-900 to-gray-600 dark:from-white dark:to-gray-300 bg-clip-text text-transparent truncate">

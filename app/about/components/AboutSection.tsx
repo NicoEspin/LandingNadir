@@ -167,26 +167,7 @@ export function AboutSection() {
           </div>
         </div>
 
-        {/* Destinations */}
-        <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 shadow-xl">
-          <h3 className="text-2xl md:text-3xl font-bold text-center mb-8 text-slate-800 dark:text-slate-100">
-            Destinos de Pesca
-          </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {destinations.map((destination, index) => (
-              <div key={index} className="text-center">
-                <h4 className="font-semibold text-lg mb-3 text-[#FF4444]">{destination.name}</h4>
-                <div className="space-y-1">
-                  {destination.rivers.map((river, riverIndex) => (
-                    <Badge key={riverIndex} variant="secondary" className="text-xs mr-1 mb-1">
-                      {river}
-                    </Badge>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+   
       </div>
     </section>
   )

@@ -10,7 +10,7 @@ const page = (props: Props) => {
   return (
     <AppWrapper activeSection="about">
       <AboutSection />
-      <ExperienceTimeline />
+      {/* <ExperienceTimeline /> */}
       <CertificationsDisplay />
       <Footer />
     </AppWrapper>
